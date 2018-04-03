@@ -22,5 +22,6 @@ def hi(message):
     mac.send_message(answer, message.conversation)
     
 def help(message):
-    answer = "*Bot called mac* \nWhatsapp framework made in Python \n*Version:* 1.0.0 \n*Status:* Beta \nhttps://github.com/danielcardeenas/whatsapp-framework"
+    # answer = "*Bot called mac* \nWhatsapp framework made in Python \n*Version:* 1.0.0 \n*Status:* Beta \nhttps://github.com/danielcardeenas/whatsapp-framework"
+    answer = "*AVAILABLE COMMANDS* \njadwal pramek \njadwal pramek dari <stasiun>"
     mac.send_message(answer, message.conversation)
